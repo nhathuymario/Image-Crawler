@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: imagecrawler
+
+server:
+  port: 9090
+
+crawler:
+  user-agent: Mozilla/5.0 (compatible; ImageCrawlerBot/1.0)
+  connect-timeout-ms: 5000
+  read-timeout-ms: 10000
+  max-images-per-page: 100
+  download-dir: downloads

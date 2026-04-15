@@ -1,0 +1,4 @@
+crawler:
+  connect-timeout-ms: 8000
+  read-timeout-ms: 15000
+  max-images-per-page: 150
